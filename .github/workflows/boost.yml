@@ -22,5 +22,6 @@ jobs:
         with:
           registry_module: boostsecurityio/bearer
           api_token: ${{ secrets.BOOST_API_TOKEN }}
+          api_endpoint: https://api.dev.boostsec.io
           log_level: DEBUG
           additional_args: --registry https://github.com/boostsecurityio/scanner-testing.git
